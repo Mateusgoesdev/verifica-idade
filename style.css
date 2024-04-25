@@ -29,7 +29,8 @@ input.input {
         border: 1px solid rgba(0, 0, 0, 0.603);
         width:100px;
 }
-input#input {
+
+input#input{
     padding:5px;
     border-radius: 8px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.342);
@@ -37,7 +38,10 @@ input#input {
     color:white;
     background-color:rgba(11, 152, 218);
     font-weight: bold;
+}
 
+input#input:hover {
+    background-color:rgb(8, 115, 165);
 }
 
 img {
